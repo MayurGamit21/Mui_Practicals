@@ -1,0 +1,48 @@
+GitHub
+mayurgamit565@gmail.com
+Webbrain@#2022
+---------
+Git Bash using project upload in github
+========================
+git config --global user.name
+-----------------------------------------------
+git config --global user.email
+-------------------------------------------------
+touch .gitignore
+-----------------------------------------------------
+git init
+--------------------------------------------------------
+git add .
+---------------------------------------------------------
+git commit -m "Initial Commit"
+----------------------------------------------------------
+git ststus
+-----------------------------------------------------------
+$ git remote add origin 
+git@github.com:MayurGamit21/Mui_Practicals.git
+         (SSH Link copy From github)
+------------------------------------------------------------
+
+git push origin master
+-------------------------------------------------------------
+ssh-keygen -t rsa -b 4096 -C "mayurgamit565@gmail.com"
+------------------------------------------------------------
+Your public key has been saved in 
+/c/Users/Mayur/.ssh/id_rsa.pub
+------------------------------------------------------------
+cat /c/Users/Mayur/.ssh/id_rsa.pub
+------------------------------------------------------------
+copy ssh key in gihub 
+setting--ssh keys- new ssh key-past ssh key here
+----------------------------------------------------
+git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/MayurGamit21/Mui_Practicals.git'
+--------------------------------
+git pull origin main
+------------------------------------
+git push -u origin main
+====================================
+
+
+
