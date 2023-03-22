@@ -1,0 +1,55 @@
+first create mkdir project00 
+
+npx create-react-app mui_system
+
+cd .\project00\
+
+cd .\mui_system\
+
+npm start
+
+install 
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/material @mui/styled-engine-sc styled-components
+npm install @fontsource/roboto
+npm install @mui/icons-material
+
+index.html in add this link in head part 
+1 Google Web Fonts link--Roboto font
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/>
+2 Google Web Fonts link--Material Icons font
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
+
+then index.css in body font-family:'Roboto', set first
+
+create new folder name App and Both App.js and App.css file move in App folder
+
+then in index.js file add App folder path change accroding to foldername import
+
+then remove unnessecery files remove from the project
+
+create components folder in create sidemenu.js file 
+
+sidemenu css set in 
+1 App.css file
+2 using mui file name first SideMenu.js
+    error-getting error Npm ERR code ERESOLVE react | Npm install error in visual studio code [Fast]
+        ----How to solve eresolve unable to resolve dependency tree in react or npm install error in visual studio code [VS code]. Solve Npm ERR code ERESOLVE permanently and Fast. ERESOLVE unable to resolve dependency tree in react.
+
+    solution- 1-Command : npm config set legacy-peer-deps true
+
+              2- Then npm install @mui/styles 
+              //Any package install
+
+
+2 using mui file name first SideMenuTwo.js
+--------------------------------------------------------
+
+This is the first video in the series of complete react material video series. In this video we discuss the following points :
+- Introduction Material UI
+- Material UI Installation
+- Application Layout
+- How to use JSS for styling components
+- Material UI Grid
+- etc.
+
